@@ -189,7 +189,7 @@ img {
 }
 
 .prop-list-item {
-  width: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
 }
 
@@ -217,7 +217,7 @@ img {
 }
 
 .about-list-item {
-  width: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -234,7 +234,7 @@ img {
 }
 
 .team-list-item {
-  width: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -305,7 +305,7 @@ img {
 }
 
 .portfolio-item {
-  width: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
