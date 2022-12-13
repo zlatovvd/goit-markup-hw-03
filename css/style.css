@@ -171,6 +171,8 @@ img {
   line-height: 1.88;
   cursor: pointer;
   padding: 10px 24px;
+  border-color: transparent;
+  border-radius: 4px;
   background-color: var(--primary-decor-color);
   color: var(--white-color);
 }
