@@ -11,6 +11,8 @@
   --secondary-dark-color: #2f303a;
   --primary-decor-color: #2196f3;
   --secondary-decor-color: #188ce8;
+  --primary-border-color: #ececec;
+  --secondary-border-color: #EEEEEE;
 }
 
 body {
@@ -50,14 +52,14 @@ img {
 }
 
 .main-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    text-align: center;
-    color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--white-color);
 }
 
 .second-title {
@@ -84,6 +86,7 @@ img {
   display: flex;
   align-items: center;
   height: 80px;
+  border-bottom: 1px solid var(--primary-border-color);
 }
 
 .logo {
@@ -176,14 +179,11 @@ img {
   background-color: var(--secondary-decor-color);
 }
 
-.prop-container {
-  padding-top: 94px;
-}
-
 .prop-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-bottom: 94px;
 }
 
 .prop-list-item {
@@ -310,6 +310,7 @@ img {
 
 .portfolio-content-wrapper {
   padding: 20px 0 20px 24px;
+  border: 1px solid var(--secondary-border-color);
 }
 
 .portfolio-title {
